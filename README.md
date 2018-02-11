@@ -26,7 +26,11 @@ Test Scenarios:
 
 Instructions to build and run:
 1) Link to the git repo – https://github.com/sramkuma9/ecs-digital
-2) Maven compiled version is uploaded in git.
+2) Download the Maven compiled version from above the link
+3) Navigate to the downloaded project folder in command prompt
+4) In the Command prompt, do the below commands
+	a) mvn clean
+	b) mvn install
 
 Platform limitations:
 None. However, the path for the chrome driver is provided in src/lib/BrowserFunctions.java 
